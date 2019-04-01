@@ -89,4 +89,4 @@ media/
 CACHE/
 media
 CACHE
-db.sqlite
+db.sqlite3
