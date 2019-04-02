@@ -10,7 +10,6 @@ class TestDiagnosisSerializers(TestCase):
             code='E1',
             title='Malaria'
         )
-        print(category.id)
         diagnosis = Diagnosis(
             code=3450, 
             category=category, 

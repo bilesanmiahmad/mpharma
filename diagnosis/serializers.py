@@ -15,12 +15,14 @@ class DiagnosisInputSerializer(serializers.ModelSerializer):
     """
     def validate(self, data):
         try:
-            category = Category.objects.get(code=data['category'])
+            category = Category.objects.get(code=data.get('category', None))
         except Category.DoesNotExist:
             raise serializers.ValidationError('Category Does Not Exist')
 
         category_code = category.code
-        full_code = category_code + str(data['code'])
+        diagnosis_code = data.get('code', None)
+        # full_code = category_code + str(data.get('code', None))
+        full_code = '{}{}'.format(category_code, diagnosis_code)
         try:
             record = Diagnosis.objects.get(full_code=full_code)
             if record:
