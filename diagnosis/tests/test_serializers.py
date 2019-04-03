@@ -23,14 +23,3 @@ class TestDiagnosisSerializers(TestCase):
                 self,
                 data={'code': 3450, 'category': 5, 'title': 'Malaria Parasites'}
             )
-    
-    # def test_validate_diagnosis(self):
-    #     category = Category.objects.create(
-    #         id=10,
-    #         code='E6',
-    #         title='Malaria'
-    #     )
-    #     diagnosis = DiagnosisInputSerializer.validate(
-    #         self,
-    #         data={'code': 3451, 'category': cat.id, 'title': 'Malaria Parasites'}
-    #     )

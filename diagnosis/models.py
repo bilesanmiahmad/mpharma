@@ -5,12 +5,12 @@ from django.db import models
 class Category(models.Model):
     code = models.CharField(
         'Category Code',
-        max_length=2,
+        max_length=6,
         unique=True
     )
     title = models.CharField(
         'Category Title',
-        max_length=50,
+        max_length=200,
         blank=True, null=True
     )
     created = models.DateTimeField(
@@ -27,8 +27,10 @@ class Category(models.Model):
 
 
 class Diagnosis(models.Model):
-    code = models.IntegerField(
+    code = models.CharField(
         'Diagnosis Code',
+        max_length=7,
+        blank=True,
     )
     category = models.ForeignKey(
         Category,
@@ -37,8 +39,12 @@ class Diagnosis(models.Model):
     )
     description = models.CharField(
         'Description',
-        max_length=70,
+        max_length=200,
         blank=True, null=True
+    )
+    icd_type = models.IntegerField(
+        'ICD Type',
+        default=10
     )
     created = models.DateTimeField(
         'Created On',

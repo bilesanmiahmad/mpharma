@@ -30,8 +30,3 @@ class TestDiagnosisViewset(TestCase):
         request = self.factory.get(self.uri)
         response = self.view(request)
         self.assertEquals(response.status_code, 200)
-    
-    def testOneDiagnosis(self):
-        request = self.factory.get(self.retrieve_uri)
-        response = self.retrieve_view(request)
-        self.assertEquals(response.status_code, 200)

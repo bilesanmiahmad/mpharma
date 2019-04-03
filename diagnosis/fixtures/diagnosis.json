@@ -1,0 +1,363 @@
+[
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 1,
+        "fields": {
+            "code": "1",
+            "description": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+            "category": 1,
+            "full_code": "A001",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 2,
+        "fields": {
+            "code": "1",
+            "description": "Typhoid meningitis",
+            "category": 2,
+            "full_code": "A0101",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 3,
+        "fields": {
+            "code": "",
+            "description": "Paratyphoid fever A",
+            "category": 3,
+            "full_code": "A011",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 4,
+        "fields": {
+            "code": "",
+            "description": "Paratyphoid fever B",
+            "category": 4,
+            "full_code": "A012",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 5,
+        "fields": {
+            "code": "",
+            "description": "Paratyphoid fever C",
+            "category": 5,
+            "full_code": "A013",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 6,
+        "fields": {
+            "code": "",
+            "description": "Paratyphoid fever, unspecified",
+            "category": 6,
+            "full_code": "A014",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 7,
+        "fields": {
+            "code": "1",
+            "description": "Salmonella sepsis",
+            "category": 7,
+            "full_code": "A021",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 8,
+        "fields": {
+            "code": "",
+            "description": "Other specified salmonella infections",
+            "category": 10,
+            "full_code": "A028",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 9,
+        "fields": {
+            "code": "2",
+            "description": "Salmonella pneumonia",
+            "category": 9,
+            "full_code": "A0222",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 10,
+        "fields": {
+            "code": "4",
+            "description": "Salmonella osteomyelitis",
+            "category": 9,
+            "full_code": "A0224",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 11,
+        "fields": {
+            "code": "",
+            "description": "Salmonella infection, unspecified",
+            "category": 11,
+            "full_code": "A029",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 12,
+        "fields": {
+            "code": "1",
+            "description": "Shigellosis due to Shigella flexneri",
+            "category": 12,
+            "full_code": "A031",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 13,
+        "fields": {
+            "code": "2",
+            "description": "Enteroinvasive Escherichia coli infection",
+            "category": 13,
+            "full_code": "A042",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 14,
+        "fields": {
+            "code": "1",
+            "description": "Enterocolitis due to Clostridium difficile, recurrent",
+            "category": 14,
+            "full_code": "A0471",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 15,
+        "fields": {
+            "code": "",
+            "description": "Other specified bacterial intestinal infections",
+            "category": 15,
+            "full_code": "A048",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 16,
+        "fields": {
+            "code": "",
+            "description": "Bacterial intestinal infection, unspecified",
+            "category": 16,
+            "full_code": "A049",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 17,
+        "fields": {
+            "code": "1",
+            "description": "Botulism food poisoning",
+            "category": 17,
+            "full_code": "A051",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 18,
+        "fields": {
+            "code": "1",
+            "description": "Chronic intestinal amebiasis",
+            "category": 18,
+            "full_code": "A061",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 19,
+        "fields": {
+            "code": "1",
+            "description": "Amebic cystitis",
+            "category": 19,
+            "full_code": "A0681",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 20,
+        "fields": {
+            "code": "",
+            "description": "Amebiasis, unspecified",
+            "category": 20,
+            "full_code": "A069",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 21,
+        "fields": {
+            "code": "0",
+            "description": "Cholera due to Vibrio cholerae 01, biovar cholerae",
+            "category": 1,
+            "full_code": "A000",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 22,
+        "fields": {
+            "code": "3",
+            "description": "Typhoid pneumonia",
+            "category": 3,
+            "full_code": "A0103",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 23,
+        "fields": {
+            "code": "9",
+            "description": "Typhoid fever with other complications",
+            "category": 3,
+            "full_code": "A0109",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 24,
+        "fields": {
+            "code": "9",
+            "description": "Salmonella with other localized infection",
+            "category": 9,
+            "full_code": "A0229",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 25,
+        "fields": {
+            "code": "5",
+            "description": "Salmonella pyelonephritis",
+            "category": 9,
+            "full_code": "A0225",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 26,
+        "fields": {
+            "code": "0",
+            "description": "Localized salmonella infection",
+            "category": 9,
+            "full_code": "A0220",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 27,
+        "fields": {
+            "code": "1",
+            "description": "Salmonella meningitis",
+            "category": 9,
+            "full_code": "A0221",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 28,
+        "fields": {
+            "code": "3",
+            "description": "Salmonella arthritis",
+            "category": 9,
+            "full_code": "A0223",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 29,
+        "fields": {
+            "code": "3",
+            "description": "Enterohemorrhagic Escherichia coli infection",
+            "category": 13,
+            "full_code": "A043",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    },
+    {
+        "model": "diagnosis.Diagnosis",
+        "pk": 30,
+        "fields": {
+            "code": "4",
+            "description": "Foodborne Bacillus cereus intoxication",
+            "category": 17,
+            "full_code": "A054",
+            "created": "2019-03-29T17:41:28+00:00",
+            "updated": "2019-03-29T17:41:28+00:00"
+        }
+    }
+
+]
