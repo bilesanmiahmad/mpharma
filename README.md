@@ -4,8 +4,8 @@ This is a take home assignment from mPharma for selected candidates for the role
 ## Instructions on setting the application up.
 1. Clone the application to your local machine.
 2. From your terminal, navigate to the application folder.
-3. Run _docker-compose build_ in your terminal
-4. Run _docker-compose up_ in your terminal
+3. Run `docker-compose build` in your terminal
+4. Run `docker-compose up` in your terminal
 
 ## Running the application
 1. You can use Postman to test the endpoints when the application is up and running.
@@ -15,8 +15,8 @@ This is a take home assignment from mPharma for selected candidates for the role
 5. If you try to create a diagnosis record with same category code and record code, you would be asked to change the code. 
 
 ## Testing the application
-1. Run _docker-compose run web python manage.py test diagnosis_. This would run all tests in the application.
+1. Run `docker-compose run web python manage.py test diagnosis`. This would run all tests in the application.
 
 ## Fixtures
-1. Run _docker-compose run web python manage.py loaddata category_ to load fixtures for the categories.
-2. Run _docker-compose run web python manage.py loaddata category_ to load fixtures for the diagnosis.
+1. Run `docker-compose run web python manage.py loaddata category` to load fixtures for the categories.
+2. Run `docker-compose run web python manage.py loaddata category` to load fixtures for the diagnosis.
