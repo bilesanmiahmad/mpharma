@@ -46,6 +46,6 @@ class DiagnosisOutputSerializer(serializers.ModelSerializer):
     class Meta:
         model = Diagnosis
         fields = [
-            'id', 'code', 'category', 'description', 
-            'full_code']
+            'id', 'code', 'category', 'description',
+            'full_code', 'icd_type']
         read_only_fields = ('full_code',)
