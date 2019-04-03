@@ -9,6 +9,7 @@ class CategorySerializer(serializers.ModelSerializer):
 
 
 class DiagnosisInputSerializer(serializers.ModelSerializer):
+    icd_type = serializers.IntegerField(required=False)
     """
         Serializer for receiving new diagnosis data
     """
@@ -33,7 +34,7 @@ class DiagnosisInputSerializer(serializers.ModelSerializer):
     class Meta:
         model = Diagnosis
         fields = [
-            'code', 'category', 'description',]
+            'code', 'category', 'description', 'icd_type']
 
 
 class DiagnosisOutputSerializer(serializers.ModelSerializer):
