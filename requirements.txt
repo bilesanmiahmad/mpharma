@@ -30,5 +30,5 @@ simplejson==3.16.0
 pip==19.0.3
 psycopg2-binary==2.7.6.1
 setuptools==40.8.0
-wheel==0.33.1
+wheel==0.38.1
 
